@@ -37,8 +37,11 @@ website:
       - icon: instagram
         href: "https://instagram.com/"
         aria-label: Instagram
+      - icon: facebook
+        href: "https://www.facebook.com/people/Divyas-Mystic-Sanctuary/61591948555685/"
+        aria-label: Facebook
       - icon: whatsapp
-        href: "https://wa.me/"
+        href: "https://wa.me/919620308564"
         aria-label: WhatsApp
 
 format:
@@ -50,6 +53,7 @@ format:
     css:
       - css/base.css
       - css/navigation.css
+      - css/brand.css
       - css/hero.css
       - css/cards.css
       - css/portraits.css

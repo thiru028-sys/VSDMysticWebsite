@@ -1,6 +1,6 @@
 /* Replace the number below before launch: country code + number, no plus sign or spaces. */
 const contact = {
-  whatsapp: "919000000000",
+  whatsapp: "919620308564",
   whatsappMessage: "Hello! I would like to book a session with Divyas Mystic Sanctuary."
 };
 

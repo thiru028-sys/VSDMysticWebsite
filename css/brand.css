@@ -1,0 +1,10 @@
+/* A distinct, more visible brand lockup in the navigation bar. */
+#quarto-header .navbar{padding-top:.4rem;padding-bottom:.4rem}
+#quarto-header .navbar-brand-container{display:flex;align-items:center;gap:1rem}
+#quarto-header .navbar-brand-logo{display:flex;align-items:center;justify-content:center;margin:0}
+#quarto-header .navbar-brand-logo .navbar-logo{width:78px!important;height:78px!important;max-height:none!important;object-fit:contain;background:#fffaf1;border:1px solid rgba(217,183,95,.7);box-shadow:0 6px 20px rgba(0,0,0,.26)}
+#quarto-header .navbar-brand-logo .navbar-logo.light-content{display:block!important}
+#quarto-header .navbar-brand-logo .navbar-logo.dark-content{display:none!important}
+#quarto-header .navbar-brand:not(.navbar-brand-logo){display:flex;align-items:center;margin:0}
+#quarto-header .navbar-title{font-family:var(--display);font-size:clamp(1.05rem,2vw,1.55rem);font-weight:500;letter-spacing:.08em;line-height:1.1;text-transform:uppercase;white-space:nowrap}
+@media(max-width:900px){#quarto-header .navbar-brand-container{gap:.65rem}#quarto-header .navbar-brand-logo .navbar-logo{width:58px!important;height:58px!important}#quarto-header .navbar-title{font-size:1rem;letter-spacing:.055em}}@media(max-width:560px){#quarto-header .navbar-brand-logo .navbar-logo{width:46px!important;height:46px!important}#quarto-header .navbar-title{font-size:.8rem;white-space:normal;max-width:175px}}
