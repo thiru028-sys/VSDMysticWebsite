@@ -1,6 +1,5 @@
 [build]
-  command = "quarto render"
-  publish = "_site"
+publish = "_site"
 
-[build.environment]
-  QUARTO_VERSION = "1.9.38"
+[[plugins]]
+package = "@quarto/netlify-plugin-quarto"
