@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" role="img" aria-labelledby="title">
+  <title id="title">Divyas Mystic Sanctuary placeholder logo</title>
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#f6df9c"/><stop offset="1" stop-color="#bd8d2f"/></linearGradient></defs>
+  <circle cx="90" cy="90" r="83" fill="#121228" stroke="url(#g)" stroke-width="3"/>
+  <circle cx="90" cy="90" r="66" fill="none" stroke="url(#g)" stroke-opacity=".65"/>
+  <path d="M90 32c19 22 25 45 0 69-25-24-19-47 0-69Zm0 0c-19 22-25 45 0 69 25-24 19-47 0-69Z" fill="url(#g)" opacity=".9"/>
+  <path d="M54 119c20-28 52-28 72 0-22 29-50 29-72 0Z" fill="none" stroke="url(#g)" stroke-width="2"/>
+  <circle cx="90" cy="119" r="8" fill="url(#g)"/><text x="90" y="153" text-anchor="middle" fill="#f6df9c" font-family="serif" font-size="15" letter-spacing="2">DIVYA</text>
+</svg>

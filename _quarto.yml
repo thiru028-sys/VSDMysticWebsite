@@ -1,10 +1,61 @@
 project:
   type: website
+  output-dir: _site
+  render:
+    - index.qmd
+    - about.qmd
+    - services.qmd
+    - contact.qmd
 
 website:
-  title: "Divya's Mystic Sanctuary "
+  title: "Divyas Mystic Sanctuary"
+  description: "Tarot guidance, Reiki healing and crystal ball readings."
+  site-url: "https://YOUR-SITE.netlify.app"
+  navbar:
+    background: transparent
+    foreground: "#fffaf1"
+    pinned: true
+    logo: images/logo-mark.svg
+    logo-alt: "Divyas Mystic Sanctuary"
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: services.qmd
+        text: Services
+      - href: contact.qmd
+        text: Contact
+    right:
+      - text: "Book a session"
+        href: contact.qmd#book
+        aria-label: "Book a session"
+  page-footer:
+    left: "© 2026 Divyas Mystic Sanctuary"
+    center: "Guidance for reflection and wellbeing."
+    right:
+      - icon: instagram
+        href: "https://instagram.com/"
+        aria-label: Instagram
+      - icon: whatsapp
+        href: "https://wa.me/"
+        aria-label: WhatsApp
 
 format:
   html:
     theme: cosmo
-    css: css/styles.css
+    toc: false
+    smooth-scroll: true
+    page-layout: full
+    css:
+      - css/base.css
+      - css/navigation.css
+      - css/hero.css
+      - css/cards.css
+      - css/animations.css
+      - css/responsive.css
+    include-in-header: assets/head.html
+    include-after-body: assets/scripts.html
+
+execute:
+  freeze: auto
