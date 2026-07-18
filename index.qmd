@@ -1,0 +1,29 @@
+---
+title: "Divya's Mystic Sanctuary"
+---
+
+<div class="hero">
+
+<img src="images/logo.jpg" class="logo"/>
+
+# Mystic Guidance
+
+### Tarot • Reiki • Crystal Ball Reading
+
+<div class="subtitle">
+
+Discover clarity, healing and spiritual guidance.
+
+</div>
+
+<div class="scroll">
+
+Click Anywhere to Begin
+
+</div>
+
+</div>
+---
+
+```{}
+```
