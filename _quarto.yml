@@ -15,7 +15,7 @@ website:
     background: transparent
     foreground: "#fffaf1"
     pinned: true
-    logo: images/logo-mark.svg
+    logo: images/logo-mark.png
     logo-alt: "Divyas Mystic Sanctuary"
     left:
       - href: index.qmd
@@ -52,6 +52,7 @@ format:
       - css/navigation.css
       - css/hero.css
       - css/cards.css
+      - css/portraits.css
       - css/animations.css
       - css/responsive.css
     include-in-header: assets/head.html
